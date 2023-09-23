@@ -384,7 +384,7 @@ h1.post-title,
     color: #909090;
 }
 .inner {
-    padding-top: 100px;
+    padding-top: 20px;
 /*    padding-bottom: 100px;*/
 }
 .light-wrapper {
@@ -2159,7 +2159,7 @@ a.more {
 a.more,
 .meta span:after,
 .meta * {
-    color: #1a2332;
+    color: #231b54;
 }
 a.more {
     display: block;

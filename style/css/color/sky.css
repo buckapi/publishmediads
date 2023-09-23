@@ -109,7 +109,7 @@ a:focus {
 .nav-tabs .nav-item .nav-link:hover,
 .nav-tabs .nav-item .nav-link.active {
     color: #231b54;
-    border-color: #231b54 !important;
+    border-color: #e54c94 !important;
 }
 .tooltip-inner {
     background-color: #231b54;
@@ -155,7 +155,7 @@ input[type="color"]:focus,
     background-color: #231b54
 }
 .ratings:after {
-    color: #231b54;
+    color: #e4017c;
 }
 .pagination ul>li>a:hover,
 .pagination ul>.active>a {
