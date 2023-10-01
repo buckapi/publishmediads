@@ -1663,7 +1663,7 @@ ol {
 /*-----------------------------------------------------------------------------------*/
 .rev_slider_wrapper {
     left: 0px;
-    width: 100%;
+    width: auto
 }
 .rev_th_auto .rev_slider {
     margin-bottom: 5px !important;
@@ -5664,13 +5664,13 @@ list-blue i {
 }
 @media (min-width: 1200px) {
     .rev_slider_wrapper.fullscreen-container {
-        min-height: 500px;
+        min-height: auto;
     }
     .rev_slider_wrapper.fullwidth-container {
         min-height: 500px;
     }
     .rev_slider_wrapper.autowidth-container {
-        min-height: 500px;
+        min-height: auto;
     }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -6158,4 +6158,22 @@ list-blue i {
     left: 60px;
     /* Otros estilos para la vista móvil */
   }
+}
+.rev_slider_wrapper{
+/* Estilos base del slider */
+background-repeat: no-repeat;
+background-image: url(style/images/art/portada3.jpg);
+background-size: cover;
+background-position: center center;
+width: auto;
+height: auto; /* Usar 'auto' para mantener la proporción de la imagen */
+opacity: 1;
+visibility: inherit;
+z-index: 20;
+}
+
+/* Estilos para pantallas más pequeñas usando Media Queries */
+@media screen and (max-width: 768px) {
+  background-size: contain;
+  /* Otros ajustes de estilo para pantallas más pequeñas si es necesario */
 }
