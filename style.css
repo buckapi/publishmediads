@@ -3371,7 +3371,7 @@ figure.overlay img {
 }
 .overlay-info figcaption {
     position: absolute;
-    background: rgba(21, 21, 21, 0.4);
+    background: rgb(21 21 21 / 11%);
     top: 0;
     bottom: 0;
     left: 0;
@@ -3382,6 +3382,7 @@ figure.overlay img {
     height: 100%;
     pointer-events: none;
     width: 100%;
+    border-radius: 10%;
 }
 .overlay-info.hovered figcaption {
     -webkit-transition: all 0.4s ease-in-out;
@@ -3768,6 +3769,7 @@ main.slide-out .slide-portfolio-overlay {
     position: relative;
     width: 100%;
     max-width: 100%;
+    border-radius: 10%;
 }
 .tiles:not(.tiles-s):not(.tiles-m):not(.no-gutter) {
     margin-bottom: -30px;
