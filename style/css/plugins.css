@@ -8372,7 +8372,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .cbp-l-grid-testimonials-footer {
     font: 12px/19px "Roboto", sans-serif;
     color: #C2C2C2;
-    text-align: center;
+    text-align: end;
     margin-bottom: 40px;
     margin-top: 35px
 }
@@ -8739,7 +8739,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .swiper-container-3d {
-    perspective: 1200px
+    perspective: 900px
 }
 
 .swiper-container-3d .swiper-cube-shadow,.swiper-container-3d .swiper-slide,.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top,.swiper-container-3d .swiper-wrapper {
