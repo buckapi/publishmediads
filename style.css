@@ -3099,7 +3099,7 @@ a.color-s-youtube-square:hover,
     position: relative;
     overflow: hidden;
     text-align: center;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 figure.overlay img {
     opacity: 1;
