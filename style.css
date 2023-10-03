@@ -6159,6 +6159,7 @@ list-blue i {
     /* Otros estilos para la vista móvil */
   }
 }
+<<<<<<< HEAD
 .rev_slider_wrapper{
 /* Estilos base del slider */
 background-repeat: no-repeat;
@@ -6177,3 +6178,7 @@ z-index: 20;
   background-size: contain;
   /* Otros ajustes de estilo para pantallas más pequeñas si es necesario */
 }
+=======
+
+
+>>>>>>> 224ed86fa4dd4a0f777efef8950835fe6a8246ed
