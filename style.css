@@ -6161,7 +6161,7 @@ list-blue i {
     /* Otros estilos para la vista móvil */
   }
 }
-<<<<<<< HEAD
+
 .rev_slider_wrapper{
 /* Estilos base del slider */
 background-repeat: no-repeat;
@@ -6180,7 +6180,18 @@ z-index: 20;
   background-size: contain;
   /* Otros ajustes de estilo para pantallas más pequeñas si es necesario */
 }
-=======
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción 16:9 para hacerlo responsivo */
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
 
-
->>>>>>> 224ed86fa4dd4a0f777efef8950835fe6a8246ed
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
