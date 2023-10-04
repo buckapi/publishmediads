@@ -7148,7 +7148,8 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 }
 
 .embed-responsive-16by9::before {
-    padding-top: 56.25%
+  padding-top: 100% 
+/*  //comentado//*/
 }
 
 .embed-responsive-4by3::before {
