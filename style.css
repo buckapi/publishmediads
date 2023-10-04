@@ -3959,7 +3959,7 @@ main.slide-out .slide-portfolio-overlay {
     border-top-right-radius: 0
 }
 .tabs-wrapper .tab-pane {
-    padding: 20px 0;
+/*    padding: 20px 0;*/
 }
 .tab-pane.fade {
     -webkit-transition: opacity 0.3s linear;
@@ -6012,7 +6012,7 @@ list-blue i {
         max-width: 100%;
     }
     .row>[class*="col-"] {
-        margin-bottom: 30px
+        margin-bottom: 5px
     }
     .row>[class*="col-"]:last-child,
     .row>[class*="col-"]:only-child,
